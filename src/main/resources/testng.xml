@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+   <test name="LoginTest1">
+      <classes>
+         <class name="com.test.testng.suite.SuiteConfig"/>
+         <class name="com.test.testng.suite.LoginTest"/>
+         <class name="com.test.testng.suite.Paytest"/>
+      </classes>
+   </test>
+ <!--  <test name="PayTest1">
+      <classes>
+         <class name="com.text.SuiteConfig"/>
+         <class name="com.text.Paytest"/>
+      </classes>
+   </test>-->
+      <test name="param">
+         <classes>
+            <parameter name="name1" value="王建林"/>
+            <parameter name="age" value="27"/>
+            <class name="com.test.testng.parameter.parameterTest"/>
+         </classes>
+      </test>
+</suite>
